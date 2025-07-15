@@ -56,3 +56,34 @@ Data Preprocessing
 
 2. 30% Testing
 
+# Models Used
+1. Naive Bayes
+2. Decision Tree
+3. Random Forest (Final Model)
+
+# Evaluation Metrics
+1. Accuracy
+2. Precision
+3. Recall (Focus on this due to high-stakes false negatives)
+4. F1 Score
+
+# Model Comparison
+
+| Model             | Accuracy    | Precision | Recall            | F1 Score         |
+| ----------------- | ----------- | --------- | ----------------- | ---------------- |
+| Naive Bayes       | Lower       | Lower     | Lower             | Lower            |
+| Decision Tree     | Moderate    | Moderate  | Moderate          | Moderate         |
+| **Random Forest** | **Highest** | **Good**  | **72% (Highest)** | **Best balance** |
+
+# Future Work
+1. Real-time data integration
+
+2. Deploying the model as an API for live predictions
+
+3. Enhancing model with additional features like real-time weather feeds and traffic camera data.
+
+# Technologies Used
+1. Python
+2. Pandas
+3. Scikit-learn
+4. Matplotlib / Seaborn (for visualization)
