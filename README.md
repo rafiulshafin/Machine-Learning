@@ -1,9 +1,9 @@
-Title: Traffic Accident Prediction using Machine Learning
+# Title: Traffic Accident Prediction using Machine Learning
 
 
 This project aims to develop a Traffic Accident Prediction System that forecasts the likelihood of traffic accidents based on factors such as weather, time, road conditions, traffic density, and driver behavior. The objective is to assist traffic management authorities and emergency services in proactively reducing accidents and enhancing road safety.
 
-Dataset: 
+# Dataset: 
 Source = https://www.kaggle.com/datasets/denkuznetz/traffic-accident-prediction/data
 
 Size: 840 instances
@@ -14,7 +14,7 @@ Target Variable:
 
   *Accident: Binary classification (1 = Accident, 0 = No Accident)
 
-Key Features:
+# Key Features:
 
 | Feature              | Type         | Description                            |
 | -------------------- | ------------ | -------------------------------------- |
@@ -34,7 +34,7 @@ Key Features:
 | Accident (Target)    | Categorical  | Accident occurrence (1/0)              |
 
 
-Data Preprocessing
+# Data Preprocessing
 
 *Missing Values:
 
